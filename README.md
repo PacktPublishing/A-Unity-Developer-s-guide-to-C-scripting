@@ -1,7 +1,7 @@
 # A-Unity-Developer-s-guide-to-C-scripting
 A Unity Developer's guide to C# scripting, Published by Packt
 
-Part 1: Foundational Concepts
+# Part 1: Foundational Concepts
 
 Chapter 1, Getting Started with Unity and C#: Game Objects and Components.
 
@@ -12,7 +12,7 @@ Chapter 3, C# Fundamentals in Unity: Variables, Loops, and Troubleshooting Techn
 Chapter 4, Exploring Unity's Scripting Anatomy: MonoBehavior, Lifecycle, User Inputs, and Inter-Script Communications
 
 
-Part 2: Intermediate Concepts
+# Part 2: Intermediate Concepts
 
 Chapter 5, Mastering Unity's API: Physics, Collisions, and Environment Interaction
 
@@ -23,7 +23,7 @@ Chapter 7, Designing Interactive UI Elements: Menus and Player Interactions in U
 Chapter 8, Mastering Physics and Animation in Unity Game Development
 
 
-Part 3: Advanced Game Development
+# Part 3: Advanced Game Development
 
 Chapter 9, Advanced Scripting Techniques in Unity: Async, Cloud Integration, Events, and Optimizing
 
@@ -34,7 +34,7 @@ Chapter 11, Multiplayer and Networking : Matchmaking, Security, and Interactive 
 Chapter 12, Optimizing Game Performance in Unity: Profiling and Analysis Techniques
 
 
-Part 4: Real World Applications  and Case Studies
+# Part 4: Real World Applications  and Case Studies
 
 Chapter 13, Building a Complete Game in Unity: Core Mechanics, Testing, and Enhancing Player Experience
 
