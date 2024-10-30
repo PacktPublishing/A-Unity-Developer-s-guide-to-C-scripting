@@ -1,4 +1,8 @@
 // PlayerScore.cs
+
+// Needs MLAPI package installed
+
+/* using MLAPI;
 using MLAPI;
 using MLAPI.NetworkVariable;
 using UnityEngine;
@@ -12,4 +16,4 @@ public class PlayerScore : NetworkBehaviour {
             score += points;
         }
     }
-}
+} */

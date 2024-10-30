@@ -16,6 +16,7 @@ public class Health : MonoBehaviour
     public int SetHealth(int value)
     { 
         healthPoints = value;	
+        return healthPoints;
     }
 
 

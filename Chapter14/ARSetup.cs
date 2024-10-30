@@ -1,5 +1,8 @@
 // ARSetup.cs
-using UnityEngine;
+
+// Needs AR Foundation package installed
+
+/* using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
@@ -18,4 +21,4 @@ public class ARSetup : MonoBehaviour
             arSession.enabled = true;
         }
     }
-}
+} */

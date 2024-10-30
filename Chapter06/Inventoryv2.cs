@@ -1,4 +1,4 @@
-// Inventory.cs (version 2)
+// Inventory01.cs (version 2)
 using System.Collections.Generic;
 using UnityEngine;
 

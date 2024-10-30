@@ -2,8 +2,8 @@
 
 using UnityEngine;
 
-Public class Mover: MonoBehaviour
-{
+   public class Mover: MonoBehaviour
+    {
     public float speed = 5.0f;
 
     void Update()

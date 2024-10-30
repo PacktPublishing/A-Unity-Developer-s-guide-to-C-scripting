@@ -1,5 +1,5 @@
 // SwipeControl.cs
-sing UnityEngine;
+using UnityEngine;
 
 public class SwipeControl : MonoBehaviour
 {

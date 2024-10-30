@@ -14,7 +14,6 @@ public class RescueRobot : MonoBehaviour
 
     void Update()
     {
-        // Add additional logic for dynamic obstacles and other 
-        rescue-specific behaviors
+        // Add additional logic for dynamic obstacles and other rescue-specific behaviors
     }
 }

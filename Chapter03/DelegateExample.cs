@@ -15,7 +15,7 @@ public class DelegateExample
 
         // Use the delegate to invoke the Add method;
         int result = op(10, 5);
-        Debug.Log($”10 + 5 = {result}”);
+        Debug.Log($"10 + 5 = {result}");
     }
 
     // Method matching the delegate signature

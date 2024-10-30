@@ -1,0 +1,3 @@
+<!-- UXML: Defining the Button -->
+
+<ui:Button text="Click Me!" class="myButton"/>

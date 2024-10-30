@@ -18,7 +18,7 @@ public class ArrayExample : MonoBehaviour
     void Update()
     {
         // Iterate over positions and update each
-        for (int i = 0; i < positions.Length; I++)
+        for (int i = 0; i < positions.Length; i++)
         {
             // Example update: move each position upwards every frame
             positions[i] += Vector3.up * Time.deltaTime;

@@ -1,5 +1,8 @@
 // NPCAgent.cs
-using Unity.MLAgents;
+
+// Needs Unity.MLAgents package installed
+
+/*using Unity.MLAgents;
 using Unity.MLAgents.Sensors;
 using Unity.MLAgents.Actuators;
 
@@ -32,4 +35,4 @@ public class NPCAgent : Agent
         actionsOut.DiscreteActions.Array[0] = 
             Convert.ToInt32(Input.GetKey(KeyCode.Space));
     }
-}
+}  */

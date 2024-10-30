@@ -1,4 +1,6 @@
 // InvokeSendMessageCoroutineExample.cs
+
+using System.Collections;
 using UnityEngine;
 
 public class InvokeSendMessageCoroutineExample : 
@@ -28,8 +30,7 @@ public class InvokeSendMessageCoroutineExample :
     IEnumerator WaitAndPerformAction(float delay)
     {
         yield return new WaitForSeconds(delay); // Waiting
-        Debug.Log("Coroutine action performed 
-        after delay.");
+        Debug.Log("Coroutine action performed after delay.");
     }
 
     void PerformAction()
