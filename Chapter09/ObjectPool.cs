@@ -1,4 +1,6 @@
 // ObjectPool.cs
+
+using System.Collections.Generic;
 using UnityEngine; // Inserted for completeness
 public class ObjectPool : MonoBehaviour
 {

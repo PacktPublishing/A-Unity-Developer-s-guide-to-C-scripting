@@ -11,8 +11,7 @@ public class DayNightCycle : MonoBehaviour
     {
         timeCounter += Time.deltaTime / dayLength;
 
-        // Change light intensity and color based on 
-        timeCounter
+        // Change light intensity and color based on timeCounter
         directionalLight.intensity = Mathf.Lerp(0.1f, 1,  
             Mathf.Abs(Mathf.Cos(timeCounter * Mathf.PI * 
                                 2)));

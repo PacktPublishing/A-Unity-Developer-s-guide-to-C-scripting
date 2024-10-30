@@ -1,8 +1,13 @@
 // PatrolGuardAI.cs
+
+using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine; // Inserted for completeness
 public class PatrolGuardAI : MonoBehaviour
 {
-    private BehaviorTree tree;
+    // This is indeed for visual display in Unity's Behavior Tree window.
+    
+    /*private BehaviorTree tree;
 
     void Start()
     {
@@ -35,5 +40,6 @@ public class PatrolGuardAI : MonoBehaviour
     void Update()
     {
         tree.Tick(); // Process the behavior tree
-    }
+    }*/
+        
 }

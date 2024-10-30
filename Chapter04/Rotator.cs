@@ -2,7 +2,7 @@
 
 using UnityEngine;
 
-Public class Rotator: MonoBehaviour
+public class Rotator: MonoBehaviour
 {
     public float rotationSpeed = 90.0f; 
     // Degrees per second

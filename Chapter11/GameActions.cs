@@ -1,5 +1,8 @@
 // GameActions.cs
-using MLAPI;
+
+// Needs MLAPI package installed
+
+/* using MLAPI;
 using MLAPI.Messaging;
 
 public class GameActions : NetworkBehaviour {
@@ -18,4 +21,4 @@ public class GameActions : NetworkBehaviour {
     void PerformFire() {
         // Code to instantiate and fire a projectile
     }
-}
+} */

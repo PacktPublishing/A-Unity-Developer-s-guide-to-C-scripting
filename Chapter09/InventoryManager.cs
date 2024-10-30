@@ -1,4 +1,4 @@
-// InventoryManager.cs
+// InventoryManager01.cs
 using System.Collections.Generic;
 using UnityEngine;
 

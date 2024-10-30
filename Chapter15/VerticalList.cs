@@ -9,8 +9,7 @@ public class VerticalList : MonoBehaviour
 
     void Start()
     {
-        // Instantiate multiple buttons and add them to the Vertical 
-        Layout Group
+        // Instantiate multiple buttons and add them to the Vertical Layout Group
         for (int i = 0; i < 10; i++)
         {
             GameObject button = Instantiate(buttonPrefab, 

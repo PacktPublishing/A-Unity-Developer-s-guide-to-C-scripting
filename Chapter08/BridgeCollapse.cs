@@ -13,8 +13,9 @@ public class BridgeCollapse : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             // Get the total weight of the player and any carried objects
-            float totalWeight = other.GetComponent<Rigidbody>().mass + other.GetComponent<PlayerInventory>().totalWeight;
-
+            float totalWeight = other.GetComponent<Rigidbody>().mass; // + other.GetComponent<PlayerInventory>().totalWeight;
+               // Need to previously defined a PlayerInventory class with a totalWeight property
+            
             // If the total weight exceeds the bridge's capacity, 
             //start the collapse
             if (totalWeight > maxWeight)
@@ -27,6 +28,6 @@ public class BridgeCollapse : MonoBehaviour
     private void Update()
     {
         // Gradually lower the bridge as it collapses
-        transform.Translate(Vector3.down * collapseSpeed * Time.deltaTime);
+        transform.Translate(collapseSpeed * Time.deltaTime * Vector3.down);
     }
 }

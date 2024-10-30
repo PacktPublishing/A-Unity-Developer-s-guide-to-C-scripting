@@ -1,4 +1,8 @@
 // VRSetup.cs
+
+// Need to add the XR Interaction Toolkit package
+
+/*
 using UnityEngine;
 using UnityEngine.XR.Management;
 
@@ -23,4 +27,4 @@ public class VRSetup : MonoBehaviour
         XRGeneralSettings.Instance.Manager.StopSubsystems();
         XRGeneralSettings.Instance.Manager.DeinitializeLoader();
     }
-}
+} */

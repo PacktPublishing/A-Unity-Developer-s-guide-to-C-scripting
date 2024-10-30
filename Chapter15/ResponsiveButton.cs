@@ -14,8 +14,7 @@ public class ResponsiveButton : MonoBehaviour
             CanvasScaler.ScaleMode.ScaleWithScreenSize;
         canvasScaler.referenceResolution = new Vector2(1920, 1080);
 
-        // Set up the button's Rect Transform to anchor to the bottom-
-        right corner
+        // Set up the button's Rect Transform to anchor to the bottom-right corner
         RectTransform buttonRectTransform = 
             myButton.GetComponent<RectTransform>();
         buttonRectTransform.anchorMin = new Vector2(1, 0);

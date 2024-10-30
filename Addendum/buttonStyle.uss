@@ -1,0 +1,8 @@
+/* USS: Styling the button */
+
+.myButton {
+
+width: 150px; height: 40px;
+background-color: #3498db; color: white;
+font-size: 16px; border-radius: 5px;
+}

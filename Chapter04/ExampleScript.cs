@@ -16,8 +16,10 @@ public class ExampleScript : MonoBehaviour
             audioManager.PlaySound(soundClip);
         }
         else
+        {
+            Debug.Log("Sound clip not found!");
+        }
     }
-    Debug.LogWarning("Sound clip not found!");
 }
 
 //Note: The text in the book has an extra bracket because it was shown as
