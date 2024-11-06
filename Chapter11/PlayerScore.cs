@@ -1,19 +1,18 @@
 // PlayerScore.cs
 
-// Needs MLAPI package installed
-
-/* using MLAPI;
-using MLAPI;
-using MLAPI.NetworkVariable;
+// Needs NetCode package installed
+/*
+using Unity.Netcode;
 using UnityEngine;
+   
+   public class PlayerScore : NetworkBehaviour {
+       public NetworkVariable<int> score = 
+           new NetworkVariable<int>(0, NetworkVariableReadPermission.Everyone, 
+               NetworkVariableWritePermission.Server);
 
-public class PlayerScore : NetworkBehaviour {
-    [SyncVar]
-    public int score;
-
-    public void AddScore(int points) {
-        if (IsServer) {
-            score += points;
-        }
-    }
-} */
+       [ServerRpc] 
+       public void AddScore(int points) {
+           score.Value += points;
+       }
+   }
+*/
